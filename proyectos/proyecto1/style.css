@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(195, 151, 151);
+}    
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-shadow: 0px 2px 4px black;
+}
+    
+form{
+    background-color: rgb(238, 234, 230);
+    padding: 20px;
+
+    
+}
+label{
+    padding: 10px;
+}
+input{
+    font-weight: 100;
+    
+    margin: 1px;
+    width: 30pxpx ;
+    height: 20px;
+}
+.form-box{
+    margin: 50px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 4px black;
+}   
+.form-container {
+  height: 100vh; /* ocupa el 100% de la altura de la ventana */
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  
+}
+.form-box form label{
+    color: red;
+}
+.form-box form input{
+    color: black;
+}
+
+
+
+
+
+
+    
+
+    

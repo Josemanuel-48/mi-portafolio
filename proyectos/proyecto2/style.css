@@ -1,0 +1,61 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;  /* Tipo de letra legible y moderna */
+  background-color: #f4f4f4;       /* Fondo gris claro para todo */
+  color: #333;                     /* Texto gris oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #0077cc;       /* Azul llamativo */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;                /* Quita los puntitos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex;                   /* Pone los elementos en línea */
+  justify-content: center;        /* Centra el menú */
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;           /* Quita el subrayado */
+  font-weight: bold;
+}
+
+/* Área principal */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Pie de página */
+footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
